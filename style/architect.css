@@ -12,6 +12,14 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.text-light-gray{
+    color:  #727272;
+
+font-size:1rem;
+
+font-weight: 400;
+line-height: 26px;
+}
 
 .btn-primary{
     color: #FFF;
@@ -40,14 +48,14 @@ nav{
 }
 main{
     width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 
 }
 
 
 
 
-.nav-title{
+.section-title{
  font-size: 3rem;
  font-weight: 700px;
  color: #131313;   
@@ -154,9 +162,15 @@ mobile devices
     header{
         padding: 20px;
     }
-   nav{
+   nav, .team-container{
+    
+
     flex-direction: column;
    } 
+   .team-img-container{
+   
+    grid-template-columns:1fr;
+   }
 }
 
 /* --------------------
@@ -166,7 +180,7 @@ Tablet or medium devices
     header{
         padding: 50px;
     }
-   nav{
+   nav, .team-container{
     flex-direction: column;
    } 
     
