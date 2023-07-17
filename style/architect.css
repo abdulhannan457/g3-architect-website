@@ -149,6 +149,41 @@ font-weight: 500;
   
     font-weight: 700;
 }
+
+/* feature section style */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.feature-content .card{
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.features .section-title{
+    border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+
+.ten-years-badge{
+    width: 342px;
+height: 200px;
+border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+padding: 40px;
+}
+.ten-years-badge h2{
+font-size: 4rem;
+}
+
+
 /* facts section */
 
 .facts-card-container{
@@ -242,6 +277,7 @@ Tablet or medium devices
     }
    nav, .team-container,
    .sponsors-img-container{
+
    align-items: center;
     flex-direction: column;
    } 
